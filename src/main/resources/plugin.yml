@@ -1,0 +1,14 @@
+name: spawnpt2
+version: 1.0
+main: org.hello.spawnpt2.Spawnpt2
+author: MedixLorian
+description: A Bukkit plugin for random spawn locations.
+
+commands:
+  setworldspawn:
+    description: Set the center of random teleportation.
+    usage: /setworldspawn center
+  setworldradius:
+    description: Set the radius of random teleportation.
+    usage: /setworldradius <radius>
+
